@@ -28,7 +28,7 @@ function CreateBlog({ blogs, setBlogs }) {
             <input type="text" name="content" value={content} onChange={(e) => setContent(e.target.value)} />
             <br />
             <label htmlFor="author">Author</label>
-            <input type="text" name="author" onChange={(e) => setAuthor(e.target.value)} />
+            <input type="text" name="author" value={author} onChange={(e) => setAuthor(e.target.value)} />
             <br />
             <button onClick={handleSubmit}>Submit</button>
         </form>

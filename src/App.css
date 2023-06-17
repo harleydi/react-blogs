@@ -4,4 +4,11 @@
 
 .all-blogs {
   width: 70vw;
+  text-align: center;
+}
+
+.blogs {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
 }

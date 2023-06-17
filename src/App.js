@@ -7,9 +7,10 @@ import AllBlogs from './Components/AllBlogs';
 function App() {
   const [blogs, setBlogs] = useState([])
 
+
   return (
     <div className="App">
-      <AllBlogs blogs={blogs} />
+      <AllBlogs blogs={blogs} setBlogs={setBlogs} />
       <CreateBlog blogs={blogs} setBlogs={setBlogs} />
     </div>
   );
